@@ -1,6 +1,6 @@
 import React, { useContext } from 'react'
 import styled from 'styled-components'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo-small.png'
 import { ModalContext } from '../../context/ModalContext'
 
 const StyledLeftComponent = styled.div`
