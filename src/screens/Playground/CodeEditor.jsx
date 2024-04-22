@@ -55,7 +55,7 @@ const CodeEditor = ({
         if (currentTheme === 'vscodeDark') setTheme(vscodeDark);
         if (currentTheme === 'okaidia') setTheme(okaidia);
     }, [currentTheme])
-
+ 
     return (
         <CodeMirror
             value={currentCode}

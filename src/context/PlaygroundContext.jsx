@@ -14,7 +14,7 @@ export const languageMap = {
         + "\treturn 0;\n"
         + "}",
     },
-    "java": {
+    "java": { 
         id: 62,
         defaultCode: `public class Main {
             public static void main(String[] args) {

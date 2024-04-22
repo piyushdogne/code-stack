@@ -11,7 +11,7 @@ const StyledEditorContainer = styled.div`
   flex-direction: column;
   width: 100%;
   min-height: ${({ isFullScreen }) => isFullScreen ? '100vh' : 'calc(100vh - 4.5rem)'};
-`
+` 
 
 const UpperToolBar = styled.div`
   background: #fff;

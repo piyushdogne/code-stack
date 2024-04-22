@@ -79,7 +79,7 @@ const Modal = () => {
         {modalType === 5 && <EditPlaygroundTitle />}
         {modalType === 6 && <Loading />}
       </ModalContent>
-    </ModalContainer>
+    </ModalContainer> 
   )
 }
 

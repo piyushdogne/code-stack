@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
-import logo from '../../assets/logo.png'
+import logo from '../../assets/logo-small.png'
 import { useNavigate } from 'react-router-dom'
 const NavbarContainer = styled.div`
   height: ${({isFullScreen}) => isFullScreen ? '0' : '4.5rem'};
@@ -21,7 +21,7 @@ const NavbarContent = styled.button`
 `
 
 const Logo = styled.img`
-  width: 60px;
+  width: 50px;
 `
 
 const MainHeading = styled.h1`
@@ -43,7 +43,7 @@ const Navbar = ({ isFullScreen }) => {
       }}>
         <Logo src={logo} />
         <MainHeading>
-          <span>Code</span> Deck
+          <span>Code</span> Stack
         </MainHeading>
       </NavbarContent>
     </NavbarContainer>

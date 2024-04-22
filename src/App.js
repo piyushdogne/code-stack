@@ -16,7 +16,7 @@ function App() {
             <Route path="/" element={<Home />} />
             <Route path="/playground/:folderId/:playgroundId" element={<Playground />} />
             <Route path="*" element={<Error404 />} />
-          </Routes>
+          </Routes> 
         </BrowserRouter>
       </ModalProvider>
     </PlaygroundProvider>

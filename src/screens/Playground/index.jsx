@@ -10,7 +10,7 @@ import { ModalContext } from '../../context/ModalContext'
 import Modal from '../../components/Modal'
 import { Buffer } from 'buffer'
 import axios from 'axios'
-const MainContainer = styled.div`
+const MainContainer = styled.div` 
   display: grid;
   grid-template-columns: ${({ isFullScreen }) => isFullScreen ? '1fr' : '2fr 1fr'};
   min-height: ${({ isFullScreen }) => isFullScreen ? '100vh' : 'calc(100vh - 4.5rem)'};

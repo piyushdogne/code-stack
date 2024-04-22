@@ -10,7 +10,7 @@ const Error404 = () => {
   }, [])
   return (
     <div>No Page Found, Redirecting to home page</div>
-  )
+  ) 
 }
 
 export default Error404

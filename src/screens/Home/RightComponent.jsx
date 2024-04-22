@@ -201,4 +201,4 @@ const RightComponent = () => {
   )
 }
 
-export default RightComponent;
+export default RightComponent; 

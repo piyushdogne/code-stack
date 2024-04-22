@@ -19,7 +19,7 @@ const Home = () => {
       <RightComponent />
       { isOpenModal.show && <Modal />}
     </StyledHome>
-  )
+  ) 
 }
 
 export default Home

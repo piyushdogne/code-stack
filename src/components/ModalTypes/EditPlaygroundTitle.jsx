@@ -11,7 +11,7 @@ const EditPlaygroundTitle = () => {
   const { folderId, cardId } = isOpenModal.identifiers;
   const [playgroundTitle, setPlaygroundTitle] = useState(folders[folderId].playgrounds[cardId].title);
 
-  return (
+  return ( 
     <>
       <Header>
         <h2>Edit Card Title</h2>

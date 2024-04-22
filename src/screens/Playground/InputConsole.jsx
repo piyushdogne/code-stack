@@ -12,7 +12,7 @@ export const Header = styled.div`
   height: 4rem;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.16);
   padding: 0 1rem;
-  z-index: 2;
+  z-index: 2; 
   font-size: 1.25rem;
   font-weight: 700;
   display: flex;

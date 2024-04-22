@@ -74,7 +74,7 @@ const NewPlayground = () => {
           addPlayground(folderId, cardTitle, language.label)
           closeModal();
         }}> Create Playground </button>
-      </InputWithSelect>
+      </InputWithSelect> 
     </>
   )
 }

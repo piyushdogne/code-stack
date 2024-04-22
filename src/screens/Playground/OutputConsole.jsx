@@ -13,7 +13,7 @@ const OutputConsole = ({ currentOutput }) => {
         </a>
 
       </Header>
-      <TextArea
+      <TextArea 
         value={currentOutput}
         disabled
       />
